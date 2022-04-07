@@ -8,8 +8,9 @@ function App() {
   return (
     <>
      <Static/>
-     <div className='a'><Join/>
-     <Setting/>
+     <div className='a'>
+       <Join h1="JOIN US" h2="LOGIN" h3="SEARCH" h4="HOME"/>
+     <Setting h1="SETTINGS" h2="CONTACT US" h3="HELP" h4="DOWNLOAD"/>
      </div>
       
     </>
